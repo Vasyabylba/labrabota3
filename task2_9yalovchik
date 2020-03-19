@@ -1,0 +1,44 @@
+Script started on 2020-03-19 20:17:42+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo last -s -14days[K -s -14days[K
+[sudo] пароль для vasiliy: 
+vasiliy  :0           :0               Thu Mar 19 15:22    gone - no logout
+reboot   system boot  5.3.0-40-generic Thu Mar 19 15:21   still running
+vasiliy  :0           :0               Sat Mar 14 10:09 - down   (02:36)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 10:08 - 12:45  (02:36)
+vasiliy  :0           :0               Sat Mar 14 08:48 - down   (00:26)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 08:48 - 09:15  (00:27)
+vasiliy  :0           :0               Fri Mar 13 22:48 - down   (00:50)
+reboot   system boot  5.3.0-40-generic Fri Mar 13 22:48 - 23:39  (00:50)
+vasiliy  :0           :0               Sat Mar  7 11:42 - down   (00:54)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:42 - 12:36  (00:54)
+vasiliy  :0           :0               Sat Mar  7 11:38 - down   (00:03)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:38 - 11:42  (00:04)
+vasiliy  :0           :0               Sat Mar  7 10:35 - down   (01:00)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 10:34 - 11:36  (01:01)
+vasiliy  :0           :0               Sat Feb 29 11:18 - down   (00:27)
+reboot   system boot  5.3.0-18-generic Sat Feb 29 11:17 - 11:46  (00:28)
+vasiliy  :0           :0               Fri Feb 28 22:10 - down   (00:03)
+reboot   system boot  5.3.0-18-generic Fri Feb 28 22:09 - 22:13  (00:04)
+
+wtmp begins Fri Feb 28 22:09:33 2020
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo last -s -14days
+vasiliy  :0           :0               Thu Mar 19 15:22    gone - no logout
+reboot   system boot  5.3.0-40-generic Thu Mar 19 15:21   still running
+vasiliy  :0           :0               Sat Mar 14 10:09 - down   (02:36)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 10:08 - 12:45  (02:36)
+vasiliy  :0           :0               Sat Mar 14 08:48 - down   (00:26)
+reboot   system boot  5.3.0-40-generic Sat Mar 14 08:48 - 09:15  (00:27)
+vasiliy  :0           :0               Fri Mar 13 22:48 - down   (00:50)
+reboot   system boot  5.3.0-40-generic Fri Mar 13 22:48 - 23:39  (00:50)
+vasiliy  :0           :0               Sat Mar  7 11:42 - down   (00:54)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:42 - 12:36  (00:54)
+vasiliy  :0           :0               Sat Mar  7 11:38 - down   (00:03)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 11:38 - 11:42  (00:04)
+vasiliy  :0           :0               Sat Mar  7 10:35 - down   (01:00)
+reboot   system boot  5.3.0-40-generic Sat Mar  7 10:34 - 11:36  (01:01)
+
+wtmp begins Fri Feb 28 22:09:33 2020
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-19 20:17:52+03:00 [COMMAND_EXIT_CODE="0"]

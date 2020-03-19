@@ -1,0 +1,19 @@
+Script started on 2020-03-19 16:07:18+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="26"]
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupadd guests
+[sudo] пароль для vasiliy: 
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupadd[K[K[K[K[K[K[Kpasswd -A guest guests
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd student
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ su guest
+Пароль: 
+$ gpasswd -a student guests
+Добавление пользователя student в группу guests
+$ exit
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupmod -n friend guet[Kstss guests[C[C[C[C[C[C[C
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo gropu[K[K[K[Kroupmod[K[K[Kdel friends
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupdel friends[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuserdel -r guest
+userdel: почтовый ящик guest (/var/mail/guest) не найден
+userdel: домашний каталог пользователя guest (/home/guest) не найден
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-19 16:16:21+03:00 [COMMAND_EXIT_CODE="0"]

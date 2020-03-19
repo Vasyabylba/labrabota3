@@ -1,0 +1,17 @@
+Script started on 2020-03-19 16:04:28+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="15"]
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo usert=[K[K[K[K[K[K[K[K[K[K[Ksudo e[Kuser [Kmod -l guest friend
+[sudo] пароль для vasiliy: 
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -d /home [K/guest guest
+sudo: неверный ключ — «d»
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt]
+            [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt]
+            [-T timeout] [-u user] file ...
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -d /home/guest guest[C[1@u[1@s[1@e[1@r[1@m[1@o[1@d[1@ 
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-19 16:07:02+03:00 [COMMAND_EXIT_CODE="0"]

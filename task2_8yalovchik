@@ -1,0 +1,604 @@
+Script started on 2020-03-19 16:33:33+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="37"]
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -i
+[sudo] пароль для vasiliy: 
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# cat /etc/shadow
+root:!:18320:0:99999:7:::
+daemon:*:18186:0:99999:7:::
+bin:*:18186:0:99999:7:::
+sys:*:18186:0:99999:7:::
+sync:*:18186:0:99999:7:::
+games:*:18186:0:99999:7:::
+man:*:18186:0:99999:7:::
+lp:*:18186:0:99999:7:::
+mail:*:18186:0:99999:7:::
+news:*:18186:0:99999:7:::
+uucp:*:18186:0:99999:7:::
+proxy:*:18186:0:99999:7:::
+www-data:*:18186:0:99999:7:::
+backup:*:18186:0:99999:7:::
+list:*:18186:0:99999:7:::
+irc:*:18186:0:99999:7:::
+gnats:*:18186:0:99999:7:::
+nobody:*:18186:0:99999:7:::
+systemd-timesync:*:18186:0:99999:7:::
+systemd-network:*:18186:0:99999:7:::
+systemd-resolve:*:18186:0:99999:7:::
+messagebus:*:18186:0:99999:7:::
+syslog:*:18186:0:99999:7:::
+_apt:*:18186:0:99999:7:::
+uuidd:*:18186:0:99999:7:::
+tcpdump:*:18186:0:99999:7:::
+avahi-autoipd:*:18186:0:99999:7:::
+usbmux:*:18186:0:99999:7:::
+rtkit:*:18186:0:99999:7:::
+dnsmasq:*:18186:0:99999:7:::
+cups-pk-helper:*:18186:0:99999:7:::
+speech-dispatcher:!:18186:0:99999:7:::
+kernoops:*:18186:0:99999:7:::
+avahi:*:18186:0:99999:7:::
+saned:*:18186:0:99999:7:::
+nm-openvpn:*:18186:0:99999:7:::
+whoopsie:*:18186:0:99999:7:::
+colord:*:18186:0:99999:7:::
+hplip:*:18186:0:99999:7:::
+geoclue:*:18186:0:99999:7:::
+pulse:*:18186:0:99999:7:::
+gnome-initial-setup:*:18186:0:99999:7:::
+gdm:*:18186:0:99999:7:::
+vasiliy:$6$ICJLqFysH.PeB1FT$3l3yIUHK2F6hWLohodanyxOPX9Q/h2WrN5ES0zmjQq0PobjTEFbt9m7R0agYaho8rqO3uN.DP61ieUIcxTqjX0:18320:0:99999:7:::
+systemd-coredump:!!:18320::::::
+student:!:18340:0:99999:7:::
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exit
+выход
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -g [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CG  user[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user [K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user?[K, mail test1[1P[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1 [A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1 [A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1 [A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1 [A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1 [A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user,mail test1[C[1@ [C[C[C[C[C[C[C[C[C[C
+useradd: группа «user» не существует
+useradd: группа «» не существует
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user, mail test1[C[1P[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgroup add[K[K[K[Kadd user[1@s[1@u[1@d[1@o[1@ 
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupadd useruseradd -o -u2000 -d /home/nouser -s /sbin/nologin -G user, mail test1[C[C[C[1P
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ [K]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd test2
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd test2[K[K[K[K[K[K[K[K[Kmod -l test3 test2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchage -l test2
+chage: доступ запрещён.
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ chage -l test2[1@s[1@u[1@d[1@o[1@ 
+Последний раз пароль был изменён				: сак 19, 2020
+Срок действия пароля истекает					: никогда
+Пароль будет деактивирован через				: никогда
+Срок действия учётной записи истекает				: никогда
+Минимальное количество дней между сменой пароля			: 0
+Максимальное количество дней между сменой пароля		: 99999
+Количество дней с предупреждением перед деактивацией пароля	: 7
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cd /home [K/test2
+bash: cd: /home/test2: Нет такого файла или каталога
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo usermod -l test3 test2
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo usermod -l test3 test2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdel test3
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cd [K[K[Kcd /etc/default/[K
+]0;vasiliy@vasiliy-VirtualBox: /etc/default[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc/default[00m$ -ls[K[K[Kls
+acpid            avahi-daemon   grub             keyboard             rsync
+acpi-support     bsdmainutils   [0m[01;34mgrub.d[0m           locale               rsyslog
+alsa             console-setup  im-config        motd-news            saned
+amd64-microcode  crda           intel-microcode  networkd-dispatcher  ufw
+anacron          cron           irqbalance       nss                  useradd
+apport           dbus           kerneloops       openvpn
+]0;vasiliy@vasiliy-VirtualBox: /etc/default[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc/default[00m$ cd [K[K[Kcd [K
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cd /etc
+]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    [01;34mfwupd[0m            ltrace.conf              [01;34mresolvconf[0m
+adduser.conf            gai.conf         machine-id               [01;36mrmt[0m
+[01;34malsa[0m                    [01;34mgdb[0m              magic                    rpc
+[01;34malternatives[0m            [01;34mgdm3[0m             magic.mime               rsyslog.conf
+anacrontab              [01;34mgeoclue[0m          mailcap                  [01;34mrsyslog.d[0m
+apg.conf                [01;34mghostscript[0m      mailcap.order            rygel.conf
+[01;34mapm[0m                     [01;34mglvnd[0m            manpath.config           [01;34msane.d[0m
+[01;34mapparmor[0m                [01;34mgnome[0m            mime.types               securetty
+[01;34mapparmor.d[0m              [01;34mgroff[0m            mke2fs.conf              [01;34msecurity[0m
+[01;34mapport[0m                  group            [01;34mmodprobe.d[0m               [01;34mselinux[0m
+appstream.conf          group-           modules                  sensors3.conf
+[01;34mapt[0m                     [01;34mgrub.d[0m           [01;34mmodules-load.d[0m           [01;34msensors.d[0m
+[01;34mavahi[0m                   gshadow          [01;36mmtab[0m                     services
+bash.bashrc             gshadow-         mtools.conf              shadow
+bash_completion         [01;34mgss[0m              [01;34mmysql[0m                    shadow-
+[01;34mbash_completion.d[0m       [01;34mgtk-3.0[0m          nanorc                   shells
+bindresvport.blacklist  hdparm.conf      [01;34mnetplan[0m                  [01;34mskel[0m
+[01;34mbinfmt.d[0m                host.conf        [01;34mnetwork[0m                  [01;34msnmp[0m
+[01;34mbluetooth[0m               hostid           [01;34mnetworkd-dispatcher[0m      [01;34mspeech-dispatcher[0m
+brlapi.key              hostname         [01;34mNetworkManager[0m           [01;34mssh[0m
+[01;34mbrltty[0m                  hosts            networks                 [01;34mssl[0m
+brltty.conf             hosts.allow      [01;34mnewt[0m                     subgid
+[01;34mca-certificates[0m         hosts.deny       nsswitch.conf            subgid-
+ca-certificates.conf    [01;34mhp[0m               [01;34mopenvpn[0m                  subuid
+[01;34mcalendar[0m                [01;34mifplugd[0m          [01;34mopt[0m                      subuid-
+[01;34mchatscripts[0m             [01;34minit[0m             [01;36mos-release[0m               sudoers
+[01;34mconsole-setup[0m           [01;34minit.d[0m           [01;34mPackageKit[0m               [01;34msudoers.d[0m
+[01;34mcracklib[0m                [01;34minitramfs-tools[0m  pam.conf                 sysctl.conf
+[01;34mcron.d[0m                  inputrc          [01;34mpam.d[0m                    [01;34msysctl.d[0m
+[01;34mcron.daily[0m              [01;34minsserv.conf.d[0m   papersize                [01;34msystemd[0m
+[01;34mcron.hourly[0m             [01;34miproute2[0m         passwd                   [01;34mterminfo[0m
+[01;34mcron.monthly[0m            issue            passwd-                  [01;34mthermald[0m
+crontab                 issue.net        [01;34mpcmcia[0m                   [01;34mthunderbird[0m
+[01;34mcron.weekly[0m             [01;34mkernel[0m           [01;34mperl[0m                     timezone
+[01;34mcups[0m                    kernel-img.conf  [01;34mpki[0m                      [01;34mtmpfiles.d[0m
+[01;34mcupshelpers[0m             kerneloops.conf  [01;34mpm[0m                       [01;34mubuntu-advantage[0m
+[01;34mdbus-1[0m                  [01;34mldap[0m             pnm2ppa.conf             ucf.conf
+[01;34mdconf[0m                   ld.so.cache      [01;34mpolkit-1[0m                 [01;34mudev[0m
+debconf.conf            ld.so.conf       popularity-contest.conf  [01;34mudisks2[0m
+debian_version          [01;34mld.so.conf.d[0m     [01;34mppp[0m                      [01;34mufw[0m
+[01;34mdefault[0m                 legal            profile                  [01;34mupdate-manager[0m
+deluser.conf            libao.conf       [01;34mprofile.d[0m                [01;34mupdate-motd.d[0m
+[01;34mdepmod.d[0m                libaudit.conf    protocols                [01;34mupdate-notifier[0m
+[01;34mdhcp[0m                    [01;34mlibblockdev[0m      [01;34mpulse[0m                    [01;34mUPower[0m
+[01;34mdictionaries-common[0m     [01;34mlibnl-3[0m          [01;34mpython3[0m                  usb_modeswitch.conf
+[01;34mdpkg[0m                    [01;34mlibpaper.d[0m       [01;34mpython3.7[0m                [01;34musb_modeswitch.d[0m
+e2scrub.conf            [01;34mlibreoffice[0m      [01;34mrc0.d[0m                    [01;34mvim[0m
+[01;34memacs[0m                   locale.alias     [01;34mrc1.d[0m                    [01;36mvtrgb[0m
+environment             locale.gen       [01;34mrc2.d[0m                    [01;34mvulkan[0m
+[01;34menvironment.d[0m           [01;36mlocaltime[0m        [01;34mrc3.d[0m                    wgetrc
+[01;34mfirefox[0m                 [01;34mlogcheck[0m         [01;34mrc4.d[0m                    [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   login.defs       [01;34mrc5.d[0m                    [01;34mX11[0m
+fprintd.conf            logrotate.conf   [01;34mrc6.d[0m                    xattr.conf
+fstab                   [01;34mlogrotate.d[0m      [01;34mrcS.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;36mresolv.conf[0m              zsh_command_not_found
+]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ nan[K[K[Kcat [K[K[K[Kcat adduser.conf
+# /etc/adduser.conf: `adduser' configuration.
+# See adduser(8) and adduser.conf(5) for full documentation.
+
+# The DSHELL variable specifies the default login shell on your
+# system.
+DSHELL=/bin/bash
+
+# The DHOME variable specifies the directory containing users' home
+# directories.
+DHOME=/home
+
+# If GROUPHOMES is "yes", then the home directories will be created as
+# /home/groupname/user.
+GROUPHOMES=no
+
+# If LETTERHOMES is "yes", then the created home directories will have
+# an extra directory - the first letter of the user name. For example:
+# /home/u/user.
+LETTERHOMES=no
+
+# The SKEL variable specifies the directory containing "skeletal" user
+# files; in other words, files such as a sample .profile that will be
+# copied to the new user's home directory when it is created.
+SKEL=/etc/skel
+
+# FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
+# for dynamically allocated administrative and system accounts/groups.
+# Please note that system software, such as the users allocated by the base-passwd
+# package, may assume that UIDs less than 100 are unallocated.
+FIRST_SYSTEM_UID=100
+LAST_SYSTEM_UID=999
+
+FIRST_SYSTEM_GID=100
+LAST_SYSTEM_GID=999
+
+# FIRST_[GU]ID to LAST_[GU]ID inclusive is the range of UIDs of dynamically
+# allocated user accounts/groups.
+FIRST_UID=1000
+LAST_UID=59999
+
+FIRST_GID=1000
+LAST_GID=59999
+
+# The USERGROUPS variable can be either "yes" or "no".  If "yes" each
+# created user will be given their own group to use as a default.  If
+# "no", each created user will be placed in the group whose gid is
+# USERS_GID (see below).
+USERGROUPS=yes
+
+# If USERGROUPS is "no", then USERS_GID should be the GID of the group
+# `users' (or the equivalent group) on your system.
+USERS_GID=100
+
+# If DIR_MODE is set, directories will be created with the specified
+# mode. Otherwise the default mode 0755 will be used.
+DIR_MODE=0755
+
+# If SETGID_HOME is "yes" home directories for users with their own
+# group the setgid bit will be set. This was the default for
+# versions << 3.13 of adduser. Because it has some bad side effects we
+# no longer do this per default. If you want it nevertheless you can
+# still set it here.
+SETGID_HOME=no
+
+# If QUOTAUSER is set, a default quota will be set from that user with
+# `edquota -p QUOTAUSER newuser'
+QUOTAUSER=""
+
+# If SKEL_IGNORE_REGEX is set, adduser will ignore files matching this
+# regular expression when creating a new home directory
+SKEL_IGNORE_REGEX="dpkg-(old|new|dist|save)"
+
+# Set this if you want the --add_extra_groups option to adduser to add
+# new users to other groups.
+# This is the list of groups that new non-system users will be added to
+# Default:
+#EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"
+
+# If ADD_EXTRA_GROUPS is set to something non-zero, the EXTRA_GROUPS
+# option above will be default behavior for adding new, non-system users
+#ADD_EXTRA_GROUPS=1
+
+
+# check user and group names also against this regular expression.
+#NAME_REGEX="^[a-z][-a-z0-9_]*\$"
+
+# use extrausers by default
+#USE_EXTRAUSERS=1
+]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ no[Kano cat adduser.conf[1P adduser.conf[1P adduser.conf[1P adduser.confn adduser.confa adduser.confn adduser.confo adduser.conf
+[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;20H(B[0;7m[ Невозможно произвести запись в директорию '.' ](B[m[35;18H(B[0;1m[37m[41m[ В файл 'adduser.conf' невозможно произвести запись ][39;49m(B[m[H(B[0;7m  GNU nano 4.3                          adduser.conf                                    [1;87H(B[m[36d(B[0;7m^G(B[m Помощь     (B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[37d(B[0;7m^X(B[m Выход[15G(B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[2d[39;49m[36m# /etc/adduser.conf: `adduser' configuration.[3d# See adduser(8) and adduser.conf(5) for full documentation.[5d# The DSHELL variable specifies the default login shell on your[6d# system.[7d[39m(B[mDSHELL=/bin/bash[9d[36m# The DHOME variable specifies the directory containing users' home[10d# directories.[11d[39m(B[mDHOME=/home[13d[36m# If GROUPHOMES is "yes", then the home directories will be created as[14d# /home/groupname/user.[15d[39m(B[mGROUPHOMES=no[17d[36m# If LETTERHOMES is "yes", then the created home directories will have[18d# an extra directory - the first letter of the user name. For example:[19d# /home/u/user.[20d[39m(B[mLETTERHOMES=no[22d[36m# The SKEL variable specifies the directory containing "skeletal" user[23d# files; in other words, files such as a sample .profile that will be[24d# copied to the new user's home directory when it is created.[25d[39m(B[mSKEL=/etc/skel[27d[36m# FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs[28d# for dynamically allocated administrative and system accounts/groups.[29d# Please note that system software, such as the users allocated by the base-passwd[30d# package, may assume that UIDs less than 100 are unallocated.[31d[39m(B[mFIRST_SYSTEM_UID=100[32dLAST_SYSTEM_UID=999[34dFIRST_SYSTEM_GID=100[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[6d[?12l[?25h[?25l[10d[?12l[?25h[?25l[35d[J[37;88H[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ sudou[K useraddadd[K[K[K test [K4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cdnano adduser.conf[1Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[1@nano[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K[Ksudo useradd test4 &&[K[K[K&&[K[K &&p[K pw[Kasswd test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4
+[sudo] пароль для vasiliy: 
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo useradd test4[K[K[K[K[K[K[K[K[K[K[K[K[Kpasswd test4
+Новый пароль : 
+Повторите ввод нового пароля : 
+passwd: пароль успешно обновлён
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -i
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exitcat /etc/shadow
+root:!:18320:0:99999:7:::
+daemon:*:18186:0:99999:7:::
+bin:*:18186:0:99999:7:::
+sys:*:18186:0:99999:7:::
+sync:*:18186:0:99999:7:::
+games:*:18186:0:99999:7:::
+man:*:18186:0:99999:7:::
+lp:*:18186:0:99999:7:::
+mail:*:18186:0:99999:7:::
+news:*:18186:0:99999:7:::
+uucp:*:18186:0:99999:7:::
+proxy:*:18186:0:99999:7:::
+www-data:*:18186:0:99999:7:::
+backup:*:18186:0:99999:7:::
+list:*:18186:0:99999:7:::
+irc:*:18186:0:99999:7:::
+gnats:*:18186:0:99999:7:::
+nobody:*:18186:0:99999:7:::
+systemd-timesync:*:18186:0:99999:7:::
+systemd-network:*:18186:0:99999:7:::
+systemd-resolve:*:18186:0:99999:7:::
+messagebus:*:18186:0:99999:7:::
+syslog:*:18186:0:99999:7:::
+_apt:*:18186:0:99999:7:::
+uuidd:*:18186:0:99999:7:::
+tcpdump:*:18186:0:99999:7:::
+avahi-autoipd:*:18186:0:99999:7:::
+usbmux:*:18186:0:99999:7:::
+rtkit:*:18186:0:99999:7:::
+dnsmasq:*:18186:0:99999:7:::
+cups-pk-helper:*:18186:0:99999:7:::
+speech-dispatcher:!:18186:0:99999:7:::
+kernoops:*:18186:0:99999:7:::
+avahi:*:18186:0:99999:7:::
+saned:*:18186:0:99999:7:::
+nm-openvpn:*:18186:0:99999:7:::
+whoopsie:*:18186:0:99999:7:::
+colord:*:18186:0:99999:7:::
+hplip:*:18186:0:99999:7:::
+geoclue:*:18186:0:99999:7:::
+pulse:*:18186:0:99999:7:::
+gnome-initial-setup:*:18186:0:99999:7:::
+gdm:*:18186:0:99999:7:::
+vasiliy:$6$ICJLqFysH.PeB1FT$3l3yIUHK2F6hWLohodanyxOPX9Q/h2WrN5ES0zmjQq0PobjTEFbt9m7R0agYaho8rqO3uN.DP61ieUIcxTqjX0:18320:0:99999:7:::
+systemd-coredump:!!:18320::::::
+student:!:18340:0:99999:7:::
+test1:!:18340:0:99999:7:::
+test4:$6$f0ucP0Bmh9bbZsCp$nDMWgvxmAV./SzR5/O4z01Wpt.kKJ.tarpMZaD3Ywqqow8dZOyjT6b0bDWy/h061cT79w4mwzvNdRwRancRn//:18340:0:99999:7:::
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# [K]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# [K]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exit
+выход
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo chahe[K[Kge test4 -E 2020-12-31
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo chage test4 -E 2020-12-31-i[K
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exitcat /etc/shadow
+root:!:18320:0:99999:7:::
+daemon:*:18186:0:99999:7:::
+bin:*:18186:0:99999:7:::
+sys:*:18186:0:99999:7:::
+sync:*:18186:0:99999:7:::
+games:*:18186:0:99999:7:::
+man:*:18186:0:99999:7:::
+lp:*:18186:0:99999:7:::
+mail:*:18186:0:99999:7:::
+news:*:18186:0:99999:7:::
+uucp:*:18186:0:99999:7:::
+proxy:*:18186:0:99999:7:::
+www-data:*:18186:0:99999:7:::
+backup:*:18186:0:99999:7:::
+list:*:18186:0:99999:7:::
+irc:*:18186:0:99999:7:::
+gnats:*:18186:0:99999:7:::
+nobody:*:18186:0:99999:7:::
+systemd-timesync:*:18186:0:99999:7:::
+systemd-network:*:18186:0:99999:7:::
+systemd-resolve:*:18186:0:99999:7:::
+messagebus:*:18186:0:99999:7:::
+syslog:*:18186:0:99999:7:::
+_apt:*:18186:0:99999:7:::
+uuidd:*:18186:0:99999:7:::
+tcpdump:*:18186:0:99999:7:::
+avahi-autoipd:*:18186:0:99999:7:::
+usbmux:*:18186:0:99999:7:::
+rtkit:*:18186:0:99999:7:::
+dnsmasq:*:18186:0:99999:7:::
+cups-pk-helper:*:18186:0:99999:7:::
+speech-dispatcher:!:18186:0:99999:7:::
+kernoops:*:18186:0:99999:7:::
+avahi:*:18186:0:99999:7:::
+saned:*:18186:0:99999:7:::
+nm-openvpn:*:18186:0:99999:7:::
+whoopsie:*:18186:0:99999:7:::
+colord:*:18186:0:99999:7:::
+hplip:*:18186:0:99999:7:::
+geoclue:*:18186:0:99999:7:::
+pulse:*:18186:0:99999:7:::
+gnome-initial-setup:*:18186:0:99999:7:::
+gdm:*:18186:0:99999:7:::
+vasiliy:$6$ICJLqFysH.PeB1FT$3l3yIUHK2F6hWLohodanyxOPX9Q/h2WrN5ES0zmjQq0PobjTEFbt9m7R0agYaho8rqO3uN.DP61ieUIcxTqjX0:18320:0:99999:7:::
+systemd-coredump:!!:18320::::::
+student:!:18340:0:99999:7:::
+test1:!:18340:0:99999:7:::
+test4:$6$f0ucP0Bmh9bbZsCp$nDMWgvxmAV./SzR5/O4z01Wpt.kKJ.tarpMZaD3Ywqqow8dZOyjT6b0bDWy/h061cT79w4mwzvNdRwRancRn//:18340:0:99999:7::18627:
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exit
+выход
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -ichage test4 -E 2020-12-31-i[Kpasswd test4 -d
+passwd: информация об истечении срока действия пароля изменена.
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo passwd test4 -d-i[K
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exitcat /etc/shadow
+root:!:18320:0:99999:7:::
+daemon:*:18186:0:99999:7:::
+bin:*:18186:0:99999:7:::
+sys:*:18186:0:99999:7:::
+sync:*:18186:0:99999:7:::
+games:*:18186:0:99999:7:::
+man:*:18186:0:99999:7:::
+lp:*:18186:0:99999:7:::
+mail:*:18186:0:99999:7:::
+news:*:18186:0:99999:7:::
+uucp:*:18186:0:99999:7:::
+proxy:*:18186:0:99999:7:::
+www-data:*:18186:0:99999:7:::
+backup:*:18186:0:99999:7:::
+list:*:18186:0:99999:7:::
+irc:*:18186:0:99999:7:::
+gnats:*:18186:0:99999:7:::
+nobody:*:18186:0:99999:7:::
+systemd-timesync:*:18186:0:99999:7:::
+systemd-network:*:18186:0:99999:7:::
+systemd-resolve:*:18186:0:99999:7:::
+messagebus:*:18186:0:99999:7:::
+syslog:*:18186:0:99999:7:::
+_apt:*:18186:0:99999:7:::
+uuidd:*:18186:0:99999:7:::
+tcpdump:*:18186:0:99999:7:::
+avahi-autoipd:*:18186:0:99999:7:::
+usbmux:*:18186:0:99999:7:::
+rtkit:*:18186:0:99999:7:::
+dnsmasq:*:18186:0:99999:7:::
+cups-pk-helper:*:18186:0:99999:7:::
+speech-dispatcher:!:18186:0:99999:7:::
+kernoops:*:18186:0:99999:7:::
+avahi:*:18186:0:99999:7:::
+saned:*:18186:0:99999:7:::
+nm-openvpn:*:18186:0:99999:7:::
+whoopsie:*:18186:0:99999:7:::
+colord:*:18186:0:99999:7:::
+hplip:*:18186:0:99999:7:::
+geoclue:*:18186:0:99999:7:::
+pulse:*:18186:0:99999:7:::
+gnome-initial-setup:*:18186:0:99999:7:::
+gdm:*:18186:0:99999:7:::
+vasiliy:$6$ICJLqFysH.PeB1FT$3l3yIUHK2F6hWLohodanyxOPX9Q/h2WrN5ES0zmjQq0PobjTEFbt9m7R0agYaho8rqO3uN.DP61ieUIcxTqjX0:18320:0:99999:7:::
+systemd-coredump:!!:18320::::::
+student:!:18340:0:99999:7:::
+test1:!:18340:0:99999:7:::
+test4::18340:0:99999:7::18627:
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exit
+выход
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -ipasswd test4 -d[Kl
+passwd: информация об истечении срока действия пароля изменена.
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo addgroup --gid 1010 xusers
+Добавляется группа «xusers» (GID 1010) ...
+Готово.
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo addgroup --gid 1010 xusers[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadduser vasiliy xusers
+Добавляется пользователь «vasiliy» в группу «xusers» ...
+Добавление пользователя vasiliy в группу xusers
+Готово.
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo groupmod xusers -n yuserss[K
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ nano /etc/sa[K[Kbsh[K[Kash/rc[K[K[Krc/[K gdfgd[K[K[K[K[K[K
+[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;19H(B[0;7m[ Невозможно произвести запись в директорию '/etc' ](B[m[H(B[0;7m  GNU nano 4.3                           /etc/bashrc                                    [1;87H(B[m[36d(B[0;7m^G(B[m Помощь     (B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[37d(B[0;7m^X(B[m Выход[15G(B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[2d[39;49m(B[m[?12l[?25h[?25l[1;80H(B[0;7mИзменён(B[m[2de[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[35d(B[0;7mSave modified buffer?                                                                   [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [15G  (B[0;7m^C(B[m Отмена[K[35;23H[?12l[?25h[?25l[36d(B[0;7m^G(B[m Помощь[36;23H(B[0;7mM-D(B[m Формат DOS[36;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[37d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[37;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m К файлам[35d(B[0;7mИмя файла для записи: /etc/bashrc(B[m[35;34H[?12l[?25h[?25l[35;34H[?12l[?25h[?25l(B[0;7m (B[m[35;33H[?12l[?25h[?25l(B[0;7m (B[m[35;32H[?12l[?25h[?25l(B[0;7m (B[m[35;31H[?12l[?25h[?25l(B[0;7m (B[m[35;30H[?12l[?25h[?25l(B[0;7m (B[m[35;29H[?12l[?25h[?25l(B[0;7m (B[m[35;28H[?12l[?25h[?25l(B[0;7m (B[m[35;27H[?12l[?25h[?25l(B[0;7m (B[m[35;26H[?12l[?25h[?25l(B[0;7m (B[m[35;25H[?12l[?25h[?25l(B[0;7m (B[m[35;24H[?12l[?25h[?25l(B[0;7m (B[m[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;23H[?12l[?25h[?25l[35;38H[1K (B[0;7m[ Отменено ](B[m[K[36;15H(B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[K[37;2H(B[0;7mX(B[m Выход      (B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[2d[?12l[?25h[?25l[35d(B[0;7mSave modified buffer?                                                                   [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [15G  (B[0;7m^C(B[m Отмена[K[35;23H[?12l[?25h[?25l[J[37;88H[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cd /etv[Kc
+]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    [01;34mfwupd[0m            ltrace.conf              [01;34mresolvconf[0m
+adduser.conf            gai.conf         machine-id               [01;36mrmt[0m
+[01;34malsa[0m                    [01;34mgdb[0m              magic                    rpc
+[01;34malternatives[0m            [01;34mgdm3[0m             magic.mime               rsyslog.conf
+anacrontab              [01;34mgeoclue[0m          mailcap                  [01;34mrsyslog.d[0m
+apg.conf                [01;34mghostscript[0m      mailcap.order            rygel.conf
+[01;34mapm[0m                     [01;34mglvnd[0m            manpath.config           [01;34msane.d[0m
+[01;34mapparmor[0m                [01;34mgnome[0m            mime.types               securetty
+[01;34mapparmor.d[0m              [01;34mgroff[0m            mke2fs.conf              [01;34msecurity[0m
+[01;34mapport[0m                  group            [01;34mmodprobe.d[0m               [01;34mselinux[0m
+appstream.conf          group-           modules                  sensors3.conf
+[01;34mapt[0m                     [01;34mgrub.d[0m           [01;34mmodules-load.d[0m           [01;34msensors.d[0m
+[01;34mavahi[0m                   gshadow          [01;36mmtab[0m                     services
+bash.bashrc             gshadow-         mtools.conf              shadow
+bash_completion         [01;34mgss[0m              [01;34mmysql[0m                    shadow-
+[01;34mbash_completion.d[0m       [01;34mgtk-3.0[0m          nanorc                   shells
+bindresvport.blacklist  hdparm.conf      [01;34mnetplan[0m                  [01;34mskel[0m
+[01;34mbinfmt.d[0m                host.conf        [01;34mnetwork[0m                  [01;34msnmp[0m
+[01;34mbluetooth[0m               hostid           [01;34mnetworkd-dispatcher[0m      [01;34mspeech-dispatcher[0m
+brlapi.key              hostname         [01;34mNetworkManager[0m           [01;34mssh[0m
+[01;34mbrltty[0m                  hosts            networks                 [01;34mssl[0m
+brltty.conf             hosts.allow      [01;34mnewt[0m                     subgid
+[01;34mca-certificates[0m         hosts.deny       nsswitch.conf            subgid-
+ca-certificates.conf    [01;34mhp[0m               [01;34mopenvpn[0m                  subuid
+[01;34mcalendar[0m                [01;34mifplugd[0m          [01;34mopt[0m                      subuid-
+[01;34mchatscripts[0m             [01;34minit[0m             [01;36mos-release[0m               sudoers
+[01;34mconsole-setup[0m           [01;34minit.d[0m           [01;34mPackageKit[0m               [01;34msudoers.d[0m
+[01;34mcracklib[0m                [01;34minitramfs-tools[0m  pam.conf                 sysctl.conf
+[01;34mcron.d[0m                  inputrc          [01;34mpam.d[0m                    [01;34msysctl.d[0m
+[01;34mcron.daily[0m              [01;34minsserv.conf.d[0m   papersize                [01;34msystemd[0m
+[01;34mcron.hourly[0m             [01;34miproute2[0m         passwd                   [01;34mterminfo[0m
+[01;34mcron.monthly[0m            issue            passwd-                  [01;34mthermald[0m
+crontab                 issue.net        [01;34mpcmcia[0m                   [01;34mthunderbird[0m
+[01;34mcron.weekly[0m             [01;34mkernel[0m           [01;34mperl[0m                     timezone
+[01;34mcups[0m                    kernel-img.conf  [01;34mpki[0m                      [01;34mtmpfiles.d[0m
+[01;34mcupshelpers[0m             kerneloops.conf  [01;34mpm[0m                       [01;34mubuntu-advantage[0m
+[01;34mdbus-1[0m                  [01;34mldap[0m             pnm2ppa.conf             ucf.conf
+[01;34mdconf[0m                   ld.so.cache      [01;34mpolkit-1[0m                 [01;34mudev[0m
+debconf.conf            ld.so.conf       popularity-contest.conf  [01;34mudisks2[0m
+debian_version          [01;34mld.so.conf.d[0m     [01;34mppp[0m                      [01;34mufw[0m
+[01;34mdefault[0m                 legal            profile                  [01;34mupdate-manager[0m
+deluser.conf            libao.conf       [01;34mprofile.d[0m                [01;34mupdate-motd.d[0m
+[01;34mdepmod.d[0m                libaudit.conf    protocols                [01;34mupdate-notifier[0m
+[01;34mdhcp[0m                    [01;34mlibblockdev[0m      [01;34mpulse[0m                    [01;34mUPower[0m
+[01;34mdictionaries-common[0m     [01;34mlibnl-3[0m          [01;34mpython3[0m                  usb_modeswitch.conf
+[01;34mdpkg[0m                    [01;34mlibpaper.d[0m       [01;34mpython3.7[0m                [01;34musb_modeswitch.d[0m
+e2scrub.conf            [01;34mlibreoffice[0m      [01;34mrc0.d[0m                    [01;34mvim[0m
+[01;34memacs[0m                   locale.alias     [01;34mrc1.d[0m                    [01;36mvtrgb[0m
+environment             locale.gen       [01;34mrc2.d[0m                    [01;34mvulkan[0m
+[01;34menvironment.d[0m           [01;36mlocaltime[0m        [01;34mrc3.d[0m                    wgetrc
+[01;34mfirefox[0m                 [01;34mlogcheck[0m         [01;34mrc4.d[0m                    [01;34mwpa_supplicant[0m
+[01;34mfonts[0m                   login.defs       [01;34mrc5.d[0m                    [01;34mX11[0m
+fprintd.conf            logrotate.conf   [01;34mrc6.d[0m                    xattr.conf
+fstab                   [01;34mlogrotate.d[0m      [01;34mrcS.d[0m                    [01;34mxdg[0m
+fuse.conf               lsb-release      [01;36mresolv.conf[0m              zsh_command_not_found
+]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ ls[K]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ ls[K]0;vasiliy@vasiliy-VirtualBox: /etc[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m/etc[00m$ ls[K[Kcd
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ cdlscd /etcnano /etc/bashrc[Cbashrcabashrcsbashrchbashrc.bashrc
+[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;19H(B[0;7m[ Невозможно произвести запись в директорию '/etc' ](B[m[35;16H(B[0;1m[37m[41m[ В файл '/etc/bash.bashrc' невозможно произвести запись ][39;49m(B[m[H(B[0;7m  GNU nano 4.3                        /etc/bash.bashrc                                  [1;87H(B[m[36d(B[0;7m^G(B[m Помощь     (B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[37d(B[0;7m^X(B[m Выход[15G(B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[2d[39;49m[36m# System-wide .bashrc file for interactive bash(1) shells.[4d# To enable the settings / commands in this file for login shells as well,[5d# this file has to be sourced in /etc/profile.[7d# If not running interactively, don't do anything[8d[32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$PS1"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32mreturn[10d[36m# check the window size after each command and, if necessary,[11d# update the values of LINES and COLUMNS.[12d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[14d[36m# set variable identifying the chroot you work in (used in the prompt below)[15d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[16;5H[39m(B[mdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[17dfi[19d[36m# set a fancy prompt (non-color, overwrite the one in /etc/profile)[20d# but only if not SUDOing and have SUDO_PS1 set; then assume smart user.[21d[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"${SUDO_USER}"[35m -a -n[39m(B[m (B[0;1m[33m"${SUDO_PS1}"[39m(B[m [32m];[39m(B[m [32mthen[22;3H[39m(B[mPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[23d(B[0m[32mfi[25d[36m# Commented out, don't overwrite xterm -T (B[0;1m[33m"title"(B[0m[36m -n (B[0;1m[33m"icontitle"(B[0m[36m by default.[26d# If this is an xterm set the title to user@host:dir[27d#case (B[0;1m[33m"$TERM"(B[0m[36m in[28d#xterm*|rxvt*)[29d#    PROMPT_COMMAND=(B[0;1m[33m'echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'[30d(B[0m[36m#    ;;[31d#*)[32d#    ;;[33d#esac[2d[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[35d[K[28d[?12l[?25h[?25l[29d[?12l[?25h[?25l[30d[?12l[?25h[?25l[31d[?12l[?25h[?25l[32d[?12l[?25h[?25l[33d[?12l[?25h[?25l[34d[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# enable bash completion in interactive shells[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#if ! shopt -oq posix; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  if [ -f /usr/share/bash-completion/bash_completion ]; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#    . /usr/share/bash-completion/bash_completion[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  elif [ -f /etc/bash_completion ]; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#    . /etc/bash_completion[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  fi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#fi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# sudo hint[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mif[39m(B[m [32m[[39m(B[m [32m!(B[0;1m[35m -e[39m(B[m (B[0;1m[33m"$HOME/.sudo_as_admin_successful"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[[39m(B[m [32m!(B[0;1m[35m -e[39m(B[m (B[0;1m[33m"$HOME/.hushlogin"[39m(B[m [32m][39m(B[m [32m;[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mcase[39m(B[m (B[0;1m[33m" $(groups) "[39m(B[m [32min[39m(B[m *[32m\[39m(B[m admin[32m\[39m(B[m *[32m|[39m(B[m*[32m\[39m(B[m sudo[32m\[39m(B[m *[32m)[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/sudo [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H(B[0;1m[34mcat[39m(B[m [32m<<[39m(B[m-EOF[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HTo run a command as administrator [32m([39m(B[muser (B[0;1m[33m"root"(B[0m[32m)[39m(B[m, use (B[0;1m[33m"sudo <command>"[39m(B[m.[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HSee (B[0;1m[33m"man sudo_root"[39m(B[m [32mfor[39m(B[m details.[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;8H[42m[1K[49m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HEOF[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mesac[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# if the command-not-found package is installed, use it[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/lib/command-not-found(B[0;1m[35m -o -x[39m(B[m /usr/share/command-not-found/command-not-found(B[0;7m>[34;1H(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H[32mfunction[39m(B[m command_not_found_handle [32m{[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;16H[36m # check because c-n-f could've been removed in the meantime[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/lib/command-not-found [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H/usr/lib/command-not-found -- (B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m (B[0;1m[31m$?[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32melif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/share/command-not-found/command-not-found [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H/usr/share/command-not-found/command-not-found -- (B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m (B[0;1m[31m$?[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32melse[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"%s: command not found\n"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m>&[39m(B[m2[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m 127[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H[32m}[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[34d[?12l[?25h[?25l[1;80H(B[0;7mИзменён(B[m[34de[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l P[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l H[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l,[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l V[?12l[?25h[?25lA[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l B[?12l[?25h[?25ly[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l V[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25l[32m![39m(B[m[?12l[?25h[?25l[35d(B[0;7mSave modified buffer?                                                                   [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [15G  (B[0;7m^C(B[m Отмена[K[35;23H[?12l[?25h[?25l[36d(B[0;7m^G(B[m Помощь[36;23H(B[0;7mM-D(B[m Формат DOS[36;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[37d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[37;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m К файлам[35d(B[0;7mИмя файла для записи: /etc/bash.bashrc(B[m[35;39H[?12l[?25h[?25l[K[1;87H[35;18H(B[0;1m[37m[41m[ Ошибка записи /etc/bash.bashrc: Отказано в доступе ][39;49m(B[m[36;15H(B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[K[37;2H(B[0;7mX(B[m Выход      (B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[34;19H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25lech[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[33;3H[?12l[?25h[?25lf[K[?12l[?25h[?25l[K[?12l[?25h[?25l[32;10H[?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l[K[?12l[?25h[?25l[31;19H[?12l[?25h[?25lf[K[35d[K[31;18H[?12l[?25h[?25l[35d(B[0;7mSave modified buffer?                                                                   [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [15G  (B[0;7m^C(B[m Отмена[K[35;23H[?12l[?25h[?25l[J[37;88H[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ sudo -i
+[sudo] пароль для vasiliy: 
+]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exitcat /etc/shadowexit[K[K[K[K[Knano /etc/bash.bach[K[Kshrc
+[?1049h[22;0;0t[1;37r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[35;38H(B[0;7m[ Reading... ](B[m[35;36H(B[0;7m[ Read 71 lines ](B[m[H(B[0;7m  GNU nano 4.3                        /etc/bash.bashrc                                  [1;87H(B[m[36d(B[0;7m^G(B[m Помощь     (B[0;7m^O(B[m Записать   (B[0;7m^W(B[m Поиск[43G(B[0;7m^K(B[m Вырезать   (B[0;7m^J(B[m Выровнять  (B[0;7m^C(B[m ТекПозиц[37d(B[0;7m^X(B[m Выход[15G(B[0;7m^R(B[m ЧитФайл    (B[0;7m^\(B[m Замена     (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m Словарь    (B[0;7m^_(B[m К строке[35d[2d[39;49m[36m# System-wide .bashrc file for interactive bash(1) shells.[4d# To enable the settings / commands in this file for login shells as well,[5d# this file has to be sourced in /etc/profile.[7d# If not running interactively, don't do anything[8d[32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$PS1"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32mreturn[10d[36m# check the window size after each command and, if necessary,[11d# update the values of LINES and COLUMNS.[12d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[14d[36m# set variable identifying the chroot you work in (used in the prompt below)[15d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[16;5H[39m(B[mdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[17dfi[19d[36m# set a fancy prompt (non-color, overwrite the one in /etc/profile)[20d# but only if not SUDOing and have SUDO_PS1 set; then assume smart user.[21d[32mif[39m(B[m [32m![39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"${SUDO_USER}"[35m -a -n[39m(B[m (B[0;1m[33m"${SUDO_PS1}"[39m(B[m [32m];[39m(B[m [32mthen[22;3H[39m(B[mPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[23d(B[0m[32mfi[25d[36m# Commented out, don't overwrite xterm -T (B[0;1m[33m"title"(B[0m[36m -n (B[0;1m[33m"icontitle"(B[0m[36m by default.[26d# If this is an xterm set the title to user@host:dir[27d#case (B[0;1m[33m"$TERM"(B[0m[36m in[28d#xterm*|rxvt*)[29d#    PROMPT_COMMAND=(B[0;1m[33m'echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'[30d(B[0m[36m#    ;;[31d#*)[32d#    ;;[33d#esac[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[35d[K[28d[?12l[?25h[?25l[29d[?12l[?25h[?25l[30d[?12l[?25h[?25l[31d[?12l[?25h[?25l[32d[?12l[?25h[?25l[33d[?12l[?25h[?25l[34d[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# enable bash completion in interactive shells[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#if ! shopt -oq posix; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  if [ -f /usr/share/bash-completion/bash_completion ]; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#    . /usr/share/bash-completion/bash_completion[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  elif [ -f /etc/bash_completion ]; then[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#    . /etc/bash_completion[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#  fi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m#fi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# sudo hint[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mif[39m(B[m [32m[[39m(B[m [32m!(B[0;1m[35m -e[39m(B[m (B[0;1m[33m"$HOME/.sudo_as_admin_successful"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[[39m(B[m [32m!(B[0;1m[35m -e[39m(B[m (B[0;1m[33m"$HOME/.hushlogin"[39m(B[m [32m][39m(B[m [32m;[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mcase[39m(B[m (B[0;1m[33m" $(groups) "[39m(B[m [32min[39m(B[m *[32m\[39m(B[m admin[32m\[39m(B[m *[32m|[39m(B[m*[32m\[39m(B[m sudo[32m\[39m(B[m *[32m)[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/sudo [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H(B[0;1m[34mcat[39m(B[m [32m<<[39m(B[m-EOF[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HTo run a command as administrator [32m([39m(B[muser (B[0;1m[33m"root"(B[0m[32m)[39m(B[m, use (B[0;1m[33m"sudo <command>"[39m(B[m.[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HSee (B[0;1m[33m"man sudo_root"[39m(B[m [32mfor[39m(B[m details.[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;8H[42m[1K[49m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9HEOF[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;5H[32mesac[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[36m# if the command-not-found package is installed, use it[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/lib/command-not-found(B[0;1m[35m -o -x[39m(B[m /usr/share/command-not-found/command-not-found(B[0;7m>[34;1H(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H[32mfunction[39m(B[m command_not_found_handle [32m{[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;16H[36m # check because c-n-f could've been removed in the meantime[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/lib/command-not-found [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H/usr/lib/command-not-found -- (B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m (B[0;1m[31m$?[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32melif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/share/command-not-found/command-not-found [32m];[39m(B[m [32mthen[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H/usr/share/command-not-found/command-not-found -- (B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m (B[0;1m[31m$?[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32melse[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"%s: command not found\n"[39m(B[m (B[0;1m[33m"$1"[39m(B[m [32m>&[39m(B[m2[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;20H[32mreturn[39m(B[m 127[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;17H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;9H[32m}[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[32mfi[39m(B[m[?12l[?25h[?25l7[2;35r8[35d
+[1;37r[34;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;80H(B[0;7mИзменён(B[m[34de[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l H[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[32m>[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l?[?12l[?25h[?25l [?12l[?25h[?25l,[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l V[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25ly[?12l[?25h[?25la[?12l[?25h[?25l[32m![39m(B[m[?12l[?25h[?25l[35d(B[0;7mSave modified buffer?                                                                   [36;1H Y(B[m Да[K[37d(B[0;7m N(B[m Нет  [15G  (B[0;7m^C(B[m Отмена[K[35;23H[?12l[?25h[?25l[36d(B[0;7m^G(B[m Помощь[36;23H(B[0;7mM-D(B[m Формат DOS[36;45H(B[0;7mM-A(B[m Доп. в начало     (B[0;7mM-B(B[m Резерв. копия[37d(B[0;7m^C(B[m Отмена[17G      (B[0;7mM-M(B[m Формат Mac[37;45H(B[0;7mM-P(B[m Доп. в конец[67G(B[0;7m^T(B[m К файлам[35d(B[0;7mИмя файла для записи: /etc/bash.bashrc(B[m[35;39H[?12l[?25h[?25l[K[1;87H[35;38H(B[0;7m[ Writing... ](B[m[1;80H(B[0;7m       (B[m[35;36H(B[0;7m[ Wrote 72 lines ](B[m[J[37;88H[?12l[?25h[37;1H[?1049l[23;0;0t[?1l>]0;root@vasiliy-VirtualBox: ~root@vasiliy-VirtualBox:~# exit
+выход
+]0;vasiliy@vasiliy-VirtualBox: ~[01;32mvasiliy@vasiliy-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-19 20:08:40+03:00 [COMMAND_EXIT_CODE="0"]
